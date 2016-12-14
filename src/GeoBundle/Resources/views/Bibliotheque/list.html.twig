@@ -1,0 +1,17 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}GeoBundle:Bibliotheque:list{% endblock %}
+
+{% block body %}
+<h1>Welcome to the Bibliotheque:list page</h1>
+
+
+    {{ dump(results) }}
+
+    {% for result in results %}
+        Coordonnées prises en charge: {{ result.Coords }}
+        <br/>
+    {%  endfor %}
+
+
+{% endblock %}

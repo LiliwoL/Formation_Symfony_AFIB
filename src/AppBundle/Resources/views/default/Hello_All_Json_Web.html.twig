@@ -1,0 +1,21 @@
+
+Output en Twig
+{% for name in output %}
+    {{ name }}
+{% endfor %}
+
+<img src="{{ asset('img/logo.png') }}" />
+
+<img src="{{ asset('bundles/app/image.svg') }}" />
+
+
+<img src="{{ asset('bundles/app/home_3Data.png') }}" />
+
+
+<img src="{{ asset('bundles/app/desert.jpg') }}" />
+
+
+<a href="{{ path('helloRoute') }}">Aller à la route helloRoute</a>
+
+
+<a href="{{ url('Route_hello_someone', { 'name' : 'fabrice'} ) }}">Aller à la route Route_hello_someone avec le paramètre Fabrice</a>

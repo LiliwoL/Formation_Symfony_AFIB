@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sudo chown -R formation:www-data var/
+php bin/console cache:clear
+sudo chown -R formation:www-data var/
+

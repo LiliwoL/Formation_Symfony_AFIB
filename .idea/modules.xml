@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/jour1_symfony.iml" filepath="$PROJECT_DIR$/.idea/jour1_symfony.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sharecode/.idea/sharecode.iml" filepath="$PROJECT_DIR$/../sharecode/.idea/sharecode.iml" />
+    </modules>
+  </component>
+</project>
