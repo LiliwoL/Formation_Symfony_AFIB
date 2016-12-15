@@ -95,4 +95,6 @@ __Fichier src/AppBundle/DataFixtures/ORM/LoadAuteurData.php__
 
 `php app/console doctrine:fixtures:load`
 
-Utilisez le suffixe **--append** si vous souhaitez simplement ajouter ces fixtures à vos données actuelles!  
+Utilisez le suffixe **--append** si vous souhaitez simplement ajouter ces fixtures à vos données actuelles!
+  
+  
