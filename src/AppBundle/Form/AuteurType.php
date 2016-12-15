@@ -11,10 +11,17 @@ class AuteurType extends AbstractType
     /**
      * {@inheritdoc}
      */
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(
+    	FormBuilderInterface $builder, array $options
+	)
     {
-        $builder->add('nom')->add('prenom')->add('nationalite')        ;
+        $builder
+			->add('nom')
+			->add('prenom')
+			->add('nationalite');
     }
+
+
     
     /**
      * {@inheritdoc}
@@ -25,6 +32,7 @@ class AuteurType extends AbstractType
             'data_class' => 'AppBundle\Entity\Auteur'
         ));
     }
+
 
     /**
      * {@inheritdoc}

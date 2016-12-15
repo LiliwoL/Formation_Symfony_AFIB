@@ -3,6 +3,9 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
+use AppBundle\Constraints As CustomAssert;
 
 /**
  * Livre
@@ -14,6 +17,7 @@ class Livre
 {
     /**
      * @var integer
+	 *
      *
      * @ORM\Column(name="id", type="integer", nullable=false)
      * @ORM\Id
@@ -23,6 +27,9 @@ class Livre
 
     /**
      * @var string
+	 *
+	 * @Assert\Isbn()
+	 * @Assert\NotBlank()
      *
      * @ORM\Column(name="ISBN", type="string", length=50, nullable=false)
      */
@@ -30,6 +37,9 @@ class Livre
 
     /**
      * @var string
+	 *
+	 * @Assert\NotBlank()
+	 * @CustomAssert\Pair()
      *
      * @ORM\Column(name="titre", type="text", nullable=false)
      */
@@ -37,6 +47,8 @@ class Livre
 
     /**
      * @var \DateTime
+	 *
+	 * @Assert\NotBlank()
      *
      * @ORM\Column(name="dateParution", type="date", nullable=false)
      */
@@ -126,12 +138,26 @@ class Livre
      *
      * @return Livre
      */
-    public function setDateparution($dateparution)
+    public function setDateparution ( $dateparution )
     {
         $this->dateparution = $dateparution;
 
         return $this;
     }
+
+	/**
+	 * Set bibliotheque
+	 *
+	 * @param AppBundle\Entity\Bibliotheque $bibliotheque
+	 *
+	 * @return Livre
+	 */
+	public function setBibliotheque( $bibliotheque )
+	{
+		$this->bibliotheque = $bibliotheque;
+
+		return $this;
+	}
 
     /**
      * Get dateparution
