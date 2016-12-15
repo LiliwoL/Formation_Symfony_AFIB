@@ -20,6 +20,7 @@ parameters:
     mailer_password: 918b915095d687
     mailer_auth_mode: cram-md5
     mailer_port: 2525
+
     secret: 4e6313d5d535c7553800162613376ede3ee9cb78
 
     # A secret key that's used to generate certain security-related tokens
