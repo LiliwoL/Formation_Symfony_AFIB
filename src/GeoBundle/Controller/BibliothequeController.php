@@ -59,9 +59,12 @@ class BibliothequeController extends Controller
 		$results = $repositoryBibliotheques->getBibliothequesAndTheirBooksFromArea($area);
 
 
+		$message = "Récupère les bibliothèques d'une zone avec leurs livres";
+
 
         return $this->render('GeoBundle:Bibliotheque:list.html.twig', array(
-            'results' => $results
+            'results' => $results,
+			'message' => $message
         ));
     }
 

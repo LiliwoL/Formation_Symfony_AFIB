@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Auteur
  *
- * @ORM\Table(name="auteur", schema="BIBLIO"))
+ * @ORM\Table(name="BIBLIO.auteur"))
  * @ORM\Entity()
  */
 class Auteur

@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Bibliotheque
  *
- * @ORM\Table(name="bibliotheque", schema="GEO")
+ * @ORM\Table(name="GEO.bibliotheque")
  * @ORM\Entity(repositoryClass="GeoBundle\Repository\BibliothequeRepository")
  */
 class Bibliotheque
@@ -27,6 +27,13 @@ class Bibliotheque
      * @ORM\Column(name="Nom", type="string", length=255)
      */
     private $nom;
+
+	/**
+	 * @var string
+	 *
+	 * @ORM\Column(name="Adresse", type="string", length=255)
+	 */
+	private $adresse;
 
     /**
      * @var point

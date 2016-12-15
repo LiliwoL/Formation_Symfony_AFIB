@@ -56,9 +56,9 @@ class BibliothequeRepository extends \Doctrine\ORM\EntityRepository
 		 * Pour que cela fonctionne, il faut les droits SELECT de l'entity manager sur l'autre base
 		 */
 		$rawSql = "
-				SELECT b.Nom, ST_AsText( b.Coords ) As Coords 
+				SELECT b.Nom, ST_AsText( b.Coords ) As Coords, l.*
 				FROM bibliotheque AS b 
-				JOIN BIBLIO.livres AS l ON l.bibliotheque_id = b.id 
+				LEFT JOIN BIBLIO.livre AS l ON l.bibliotheque_id = b.id 
 				WHERE MBRContains( GeomFromText('Polygon( $area )'), b.Coords )";
 
 

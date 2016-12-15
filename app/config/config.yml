@@ -75,6 +75,9 @@ doctrine:
     # Attention! Pour les relations bilatérales, les utilisateurs de chacune de ces bases doivent
     # pouvoir faire des requêtes SELECT sur l'autre BASE
     #
+    # GRANT SELECT ON `BIBLIO`.* TO 'GEO'@'%';
+    # GRANT SELECT ON `GEO`.* TO 'BIBLIO'@'%';
+    #
     orm:
         default_entity_manager: geo
         entity_managers:

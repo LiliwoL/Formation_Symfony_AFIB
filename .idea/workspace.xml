@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24ab421-c21c-4d1b-aaeb-dd10dda96957" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../sharecode/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sharecode/include/init.php" afterPath="$PROJECT_DIR$/../sharecode/include/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sharecode/res/js/checkCode.function.js" afterPath="$PROJECT_DIR$/../sharecode/res/js/checkCode.function.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BibliothequeController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BibliothequeController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GeoBundle/Controller/BibliothequeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+            <state relative-caret-position="363">
+              <caret line="38" column="22" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="22" />
               <folding>
                 <element signature="e#41#75#0#PHP" expanded="true" />
               </folding>
@@ -53,36 +55,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GeoBundle/Resources/views/Bibliotheque/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="75" column="56" lean-forward="false" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
-              <folding>
-                <element signature="e#2978#8536#1" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="126">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BibliothequeRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GeoBundle/Repository/BibliothequeRepository.php">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
-              <caret line="55" column="99" lean-forward="false" selection-start-line="55" selection-start-column="99" selection-end-line="55" selection-end-column="99" />
+              <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
               <folding>
-                <marker date="1481728043268" expanded="true" signature="663:805" ph="SELECT * FRO... Bibliotheque" />
-                <marker date="1481728043268" expanded="true" signature="1531:1730" ph="SELECT g.Nom... bibliotheque" />
+                <element signature="e#3078#8636#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BibliothequeRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GeoBundle/Repository/BibliothequeRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <marker date="1481729176980" expanded="true" signature="663:805" ph="SELECT * FRO... Bibliotheque" />
+                <marker date="1481729176980" expanded="true" signature="1531:1738" ph="SELECT g.Nom... bibliotheque" />
               </folding>
             </state>
           </provider>
@@ -102,7 +104,17 @@
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Livre.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bibliotheque.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GeoBundle/Entity/Bibliotheque.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -112,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Auteur.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -161,16 +173,16 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Bibliotheque.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Command/MyCommand.php" />
-        <option value="$PROJECT_DIR$/src/GeoBundle/Resources/views/Bibliotheque/list.html.twig" />
-        <option value="$PROJECT_DIR$/src/GeoBundle/Entity/Bibliotheque.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Auteur.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/BiblioController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Repository/LivreRepository.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Auteur.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Livre.php" />
-        <option value="$PROJECT_DIR$/src/GeoBundle/Controller/BibliothequeController.php" />
+        <option value="$PROJECT_DIR$/src/GeoBundle/Entity/Bibliotheque.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/GeoBundle/Repository/BibliothequeRepository.php" />
+        <option value="$PROJECT_DIR$/src/GeoBundle/Controller/BibliothequeController.php" />
+        <option value="$PROJECT_DIR$/src/GeoBundle/Resources/views/Bibliotheque/list.html.twig" />
       </list>
     </option>
   </component>
@@ -867,18 +879,18 @@
       <option name="presentableId" value="Default" />
       <updated>1481615434032</updated>
       <workItem from="1481615436475" duration="630000" />
-      <workItem from="1481617214765" duration="49062000" />
+      <workItem from="1481617214765" duration="52039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49692000" />
+    <option name="totallyTimeSpent" value="52669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21671827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21671827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.083591335" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1276,7 +1288,7 @@
         <state relative-caret-position="306">
           <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="32" />
           <folding>
-            <element signature="e#36#101#0#PHP" expanded="true" />
+            <element signature="e#36#101#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1337,34 +1349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeoBundle/Resources/views/Bibliotheque/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/creof/doctrine2-spatial/lib/CrEOF/Spatial/PHP/Types/AbstractMultiPoint.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeoBundle/Entity/Bibliotheque.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Auteur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1391,14 +1379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Livre.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/BiblioController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1415,33 +1395,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeoBundle/Controller/BibliothequeController.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Auteur.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-          <folding>
-            <element signature="e#41#75#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeoBundle/Entity/Bibliotheque.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Livre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="75" column="56" lean-forward="false" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
+        <state relative-caret-position="570">
+          <caret line="78" column="46" lean-forward="false" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
           <folding>
-            <element signature="e#2978#8536#1" expanded="false" />
+            <element signature="e#3078#8636#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GeoBundle/Repository/BibliothequeRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="55" column="99" lean-forward="false" selection-start-line="55" selection-start-column="99" selection-end-line="55" selection-end-column="99" />
+        <state relative-caret-position="192">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <marker date="1481728043268" expanded="true" signature="663:805" ph="SELECT * FRO... Bibliotheque" />
-            <marker date="1481728043268" expanded="true" signature="1531:1730" ph="SELECT g.Nom... bibliotheque" />
+            <marker date="1481729176980" expanded="true" signature="663:805" ph="SELECT * FRO... Bibliotheque" />
+            <marker date="1481729176980" expanded="true" signature="1531:1738" ph="SELECT g.Nom... bibliotheque" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeoBundle/Resources/views/Bibliotheque/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeoBundle/Controller/BibliothequeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#41#75#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

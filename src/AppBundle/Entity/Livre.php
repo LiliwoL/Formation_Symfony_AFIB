@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Livre
  *
- * @ORM\Table(name="livre"), uniqueConstraints={@ORM\UniqueConstraint(name="UNIQ_AC634F99FA891952", columns={"ISBN"})})
+ * @ORM\Table(name="BIBLIO.livre", uniqueConstraints={@ORM\UniqueConstraint(name="UNIQ_AC634F99FA891952", columns={"ISBN"})})
  * @ORM\Entity(repositoryClass="AppBundle\Repository\LivreRepository")
  */
 class Livre
@@ -53,7 +53,7 @@ class Livre
 
 	/**
 	 * @ORM\ManyToOne(
-	 *     targetEntity="\GeoBundle\Entity\Bibliotheque",
+	 *     targetEntity="GeoBundle\Entity\Bibliotheque",
 	 *     inversedBy="livres"
 	 * )
 	 */
