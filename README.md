@@ -83,9 +83,9 @@ __Fichier src/AppBundle/DataFixtures/ORM/LoadAuteurData.php__
         public function load(ObjectManager $manager)
         {
             $auteur = new Auteur();
-            $auteur->setIsbn("FCF82555FFFF");
+            $auteur->setNom("Frank Herbert");
     
-            $manager->persist($livre);
+            $manager->persist($auteur);
             $manager->flush();
         }
     }
