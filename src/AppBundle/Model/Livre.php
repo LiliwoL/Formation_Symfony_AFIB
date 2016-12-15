@@ -8,6 +8,7 @@ class Livre
 	private $titre;
 	private $dateParution;
 	private $auteur;
+	private $bibliotheque;
 
 	public function setIsbn ( $isbn )
 	{
@@ -33,6 +34,12 @@ class Livre
 		return $this;
 	}
 
+	public function setBibliotheque ( $bibliothque )
+	{
+		$this->bibliothque = $bibliotheque;
+		return $this;
+	}
+
 	public function getIsbn ()
 	{
 		return $this->isbn;
@@ -51,5 +58,10 @@ class Livre
 	public function getAuteur ()
 	{
 		return $this->auteur;
+	}
+
+	public function getBibliotheque ()
+	{
+		return $this->bibliotheque;
 	}
 }

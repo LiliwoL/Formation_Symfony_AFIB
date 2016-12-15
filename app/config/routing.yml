@@ -1,3 +1,7 @@
+app_auteur:
+    resource: "@AppBundle/Controller/AuteurController.php"
+    type:     annotation
+
 geo:
     resource: "@GeoBundle/Controller/"
     type:     annotation
