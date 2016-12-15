@@ -2,33 +2,34 @@
 #Symfony FormationAFIB Décembre 2016
 
 
-## Branche master
+## Branche Security
 
 
+Installation de FOSUserBundle
+
+    https://symfony.com/doc/master/bundles/FOSUserBundle/index.html
+    
+    
+1. Ajout de la dépendance
+
+`composer require friendsofsymfony/user-bundle "~2.0@dev"`
 
 
-## Sous Branches:
-### DataFixtures
-### Formulaires
-### Security
+2. Mise à jour des dépendances
+`composer update`
 
+3. Activer le Bundle
 
+4. Créer une entité User
 
+// src/AppBundle/Entity/User.php
 
+5. Configurer config.yml
+ 
+6. Insérer les routes FosUser
 
+7. Mettre à jour la base de données
 
-## Pour récupérer un projet depuis GIT
+8. Configurer security.yml
 
-1. git clone
-2. composer update
-
-**Création de la base**
-3. php bin/console doctrine:database:create --connecton=geo
-4. php bin/console doctrine:database:create --connecton=biblio
-
-**Mise à jour du schéma**
-5. php bin/console doctrine:schema:update --em=geo
-6. php bin/console doctrine:schema:update --em=biblio
-
-**Ajout des DataFixtures (cf. branche DataFixtures)**
 

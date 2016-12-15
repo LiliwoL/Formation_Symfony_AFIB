@@ -6,3 +6,8 @@ geo:
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+
+# Fos User Routing
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

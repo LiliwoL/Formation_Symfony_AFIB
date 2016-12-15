@@ -79,7 +79,7 @@ doctrine:
     # GRANT SELECT ON `GEO`.* TO 'BIBLIO'@'%';
     #
     orm:
-        default_entity_manager: geo
+        default_entity_manager: biblio
         entity_managers:
             biblio:
                 connection: biblio
@@ -159,3 +159,9 @@ swiftmailer:
     spool:     { type: memory }
     auth_mode: "%mailer_auth_mode%"
     port:      "%mailer_port%"
+
+# Fos USer Bundle Configuration
+fos_user:
+    db_driver: orm # other valid values are 'mongodb' and 'couchdb'
+    firewall_name: main
+    user_class: AppBundle\Entity\User
