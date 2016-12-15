@@ -7,6 +7,9 @@
 
 
     {# Utilisation de la fonction TWIG form #}
-    {{ form( formulaireAuteur ) }}
+    {{ form_start( formulaireAuteur ) }}
+        {{ form_errors( formulaireAuteur ) }}
+
+    {{ form_end( formulaireAuteur ) }}
 
 {% endblock %}

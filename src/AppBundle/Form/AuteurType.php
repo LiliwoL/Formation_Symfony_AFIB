@@ -6,6 +6,10 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+
 class AuteurType extends AbstractType
 {
     /**
@@ -16,9 +20,14 @@ class AuteurType extends AbstractType
 	)
     {
         $builder
-			->add('nom')
+			->
+			->add('nom', TextType::class, array(
+					'error_bubbling' => true
+				)
+			)
 			->add('prenom')
-			->add('nationalite');
+			->add('nationalite')
+			->add('valider', SubmitType::class);
     }
 
 

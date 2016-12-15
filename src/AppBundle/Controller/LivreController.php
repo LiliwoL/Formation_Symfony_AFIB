@@ -145,7 +145,7 @@ class LivreController extends Controller
 
     	if ( $form->isValid() ) {
 
-    		var_dump ( $form->getData() );
+    		//var_dump ( $form->getData() );
 
     		return new Response( 'Le formulaire est valide et soumis' );
 		}
